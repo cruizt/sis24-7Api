@@ -1,0 +1,25 @@
+{
+  "version": "2.0",
+  "app_name": "usuarios",
+  "api_gateway_endpoint_type": "REGIONAL",
+  "environment_variables": {
+    "API_NAME": "usuarios"
+  },
+  "stages": {
+    "dev": {
+      "api_gateway_stage": "dev",
+      "environment_variables": {
+        "REGION": "us-east-1",
+        "COGNITO_USER_POOL_ID": "us-east-1_g1cPDxrlg",
+        "COGNITO_CLIENT_ID": "3s2tpvh68visslqtu5pn40nepa",
+        "COGNITO_CLIENT_SECRET": "455rl0b90lgd3vav420huufcnrnko7cv20qjji2rrklasc0kmsg",
+        "COGNITO_USER_POOL": "dev_up_sis247",
+        "COGNITO_USER_POOL_ARN": "arn:aws:cognito-idp:us-east-1:533823205344:userpool/us-east-1_g1cPDxrlg",
+        "DB_NAME": "sis247dev",
+        "DB_CLUSTER_ARN": "arn:aws:rds:us-east-1:533823205344:cluster:sis247",
+        "DB_CREDENTIALS_SECRET_ARN": "arn:aws:secretsmanager:us-east-1:533823205344:secret:dev/sis247devuser-rafg7E",
+        "DB_CITIZEN_ROL": "2"
+      }
+    }
+  }
+}

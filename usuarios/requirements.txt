@@ -1,0 +1,3 @@
+pycognito
+aurora-data-api
+cognitojwt[sync]
