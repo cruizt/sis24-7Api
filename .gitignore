@@ -1,3 +1,7 @@
 /get-pip.py
 /venv/
 .idea
+/incidentes/.chalice/deployed/
+/incidentes/.chalice/deployments/
+/usuarios/.chalice/deployed/
+/usuarios/.chalice/deployments/
